@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://mg-immigration.github.io/website/"
 languageCode = "en-us"
 title = "Arcana for Hugo"
 theme = "hugo-arcana"
