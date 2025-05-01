@@ -1,20 +1,19 @@
 ---
-title: "Zwei Seitenleisten"
-description: "Korrekt. Zwei Seitenleisten gleichzeitig."
+title: "About Us"
+description: "All content, all the time."
 menu: main
-weight: 70
+weight: 20
 image: images/banner.jpg
-image_alt: "Hallo!"
-tags: ["beispiele", "inhalt", "seitenleiste"]
+image_alt: "Hello!"
+tags: ["examples", "content"]
 sidebar_left: sidebar1
-sidebar_right: sidebar2
 ---
-Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+AAPhasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
 Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
 Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
 consequat etiam lorem ipsum dolor sit amet nullam.
 
-### Und eine weitere Überschrift
+### And Yet Another Subheading
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
 justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
 ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
