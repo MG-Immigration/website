@@ -1,0 +1,40 @@
+// Misc.
+    $misc: (
+        z-index-base:   10000
+    );
+
+// Duration.
+    $duration: (
+        navPanel: 0.5s
+    );
+
+// Size.
+    $size: (
+        navPanel: 275px,
+        radius: 5px
+    );
+
+// Font.
+    $font: (
+    );
+
+// Palette.
+    $palette: (
+        bg: #fff,
+        bg-bold: #f7f7f7,
+        fg: #1D2332,
+        fg-bold: #303a52,
+        fg-light: #435172,
+        border: #e0e0e0,
+
+        accent: (
+            bg: #DBC078,
+            fg: #fff
+        ),
+        obscure: (
+            bg: #1D2332,
+            bg-light: #435172,
+            bg-bold: #303a52,
+            fg: #c0c0c0
+        )
+    );

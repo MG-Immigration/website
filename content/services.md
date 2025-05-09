@@ -1,12 +1,53 @@
 ---
 title: "Services"
-description: "All content, all the time."
+description: "Immigration Services We Offer"
 menu: main
 weight: 30
 image: images/banner.jpg
-image_alt: "Hello!"
-tags: ["examples", "content"]
+image_alt: "Immigration Services Banner"
+tags: ["services"]
 ---
+
+## Immigration Consulting
+
+<div class="box post">
+    <a href="/services/consulting" class="image left"><img src="/images/service-consulting.jpg" alt="Immigration Consulting" /></a>
+    <div class="inner">
+        <h3>Immigration Consulting</h3>
+        <p>Expert guidance through the immigration process. We provide comprehensive consulting services to help you understand your options and choose the best path forward for your situation.</p>
+    </div>
+</div>
+
+## Visa Applications
+
+<div class="box post">
+    <a href="/services/visas" class="image left"><img src="/images/service-visa.jpg" alt="Visa Applications" /></a>
+    <div class="inner">
+        <h3>Visa Applications</h3>
+        <p>Professional assistance with visa applications for work, study, or permanent residence. We handle the paperwork so you can focus on preparing for your journey.</p>
+    </div>
+</div>
+
+## Document Translation
+
+<div class="box post">
+    <a href="/services/translation" class="image left"><img src="/images/service-translation.jpg" alt="Document Translation" /></a>
+    <div class="inner">
+        <h3>Document Translation</h3>
+        <p>Certified translation services for all your immigration documents. We ensure accurate and officially accepted translations for your application process.</p>
+    </div>
+</div>
+
+## Immigration Appeals
+
+<div class="box post">
+    <a href="/services/appeals" class="image left"><img src="/images/service-appeals.jpg" alt="Immigration Appeals" /></a>
+    <div class="inner">
+        <h3>Immigration Appeals</h3>
+        <p>Expert representation for immigration appeals and judicial reviews. We help you understand your rights and fight for your case with dedicated legal support.</p>
+    </div>
+</div>
+
 AAPhasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
 Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
 Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi

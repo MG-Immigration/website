@@ -1,0 +1,51 @@
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <section class="col-4 col-12-mobilep">
+                <div class="footer-logo">
+                    <img src="{{ .Site.Params.logo | default "/images/logo.png" }}" alt="{{ .Site.Title }} Logo">
+                </div>
+            </section>
+            <section class="col-2 col-12-mobilep">
+                <ul class="links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./about_us/">About Us</a></li>
+                    <li><a href="./services/">Services</a></li>
+                    <li><a href="./consultation/">Consultation</a></li>
+                </ul>
+            </section>
+            <section class="col-3 col-12-mobilep">
+                <ul class="links">
+                    <li><i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i> Montreal, Quebec, Canada</li>
+                    <li>Consultation</li>
+                </ul>
+            </section>
+
+            <section class="col-3 col-12-mobilep">
+                <div>
+                    <a href="/contact" class="button" style="color: #FFFFFF;">Contact Us</a>
+                </div>
+            </section>
+
+            {{- if .Site.Params.footer.contact_form.enabled }}
+                {{- partial "footer/contact.html" .Site.Params.footer.contact_form }}
+            {{- end }}
+        </div>
+    </div>
+
+    <ul class="icons">
+    {{- range .Site.Params.social }}
+        <li><a href="{{ .url }}" class="{{ if .icon }}icon brands {{ .icon  }}{{ end }}" target="_blank">
+            <span class="label">{{ .title }}</span>
+        </a>
+    {{- end }}
+    </ul>
+
+    <div class="copyright">
+        <ul class="menu">
+            {{ if .Site.Copyright }}
+                <li>{{ replace .Site.Copyright "{currentYear}" now.Year }}
+            {{ end }}
+        </ul>
+    </div>
+</div>
